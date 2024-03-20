@@ -1,39 +1,17 @@
-# Arco Uno Basic Template
+# FrozenColumnsMergeCells-demo
+
+> While vue3 is used, regular HTML code can be referred to. 尽管使用了vue3，但普通的HTML代码可以作为参考。
+
+"FrozenColumnsMergeCells" is a table demo designed to provide the functionality of freezing columns and merging cells in a table. This demo allows users to easily have a rough reference for similar features.
+
+"FrozenColumnsMergeCells"是一个表格demo，旨在提供对表格的列冻结和单元格合并的功能。该demo使用户能够轻松地对类似功能有大致参考。
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- FrozenColumns
 
-- 🗂 [File based routing](./src/pages)
+- MergeCells
 
-- 📦 [Components auto importing](./src/components)
-
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
-
-- ✅ Use [Arco UI](https://arco.design/vue/docs/start) UI Framework
+- Vue3/Unocss(tailwind.css)
 
 - 🦾 TypeScript, of course
-
-- ☁️ Deploy on Netlify, zero-config
-
-## Try it now!
-
-> arco-uno-basic-template requires Node >=14.18
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/lanseria/arco-uno-basic-template/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit lanseria/arco-uno-basic-template my-arco-uno-app
-cd my-arco-uno-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-```
